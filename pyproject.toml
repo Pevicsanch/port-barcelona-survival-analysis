@@ -13,3 +13,15 @@ dependencies = [
     "polars>=1.37.1",
     "requests>=2.32.5",
 ]
+
+[dependency-groups]
+dev = [
+    "poethepoet>=0.40.0",
+    "ruff>=0.14.11",
+]
+
+[tool.poe.tasks]
+extract = "python src/extract_ckan.py -v"
+build   = "python src/build_survival_dataset.py"
+lint    = "ruff check ."
+format  = "ruff format ."
