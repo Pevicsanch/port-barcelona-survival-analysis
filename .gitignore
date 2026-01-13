@@ -3,3 +3,6 @@ __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
 .DS_Store
+# Data artifacts (generated)
+data/raw/
+data/processed/
