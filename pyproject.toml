@@ -1,0 +1,15 @@
+[project]
+name = "port-barcelona-survival-analysis"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=7.1.0",
+    "jupyter>=1.1.1",
+    "lifelines>=0.30.0",
+    "pandas>=2.3.3",
+    "plotly>=6.5.1",
+    "polars>=1.37.1",
+    "requests>=2.32.5",
+]
